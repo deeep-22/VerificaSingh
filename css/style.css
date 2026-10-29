@@ -1,0 +1,83 @@
+body{
+    background-color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: ;
+}
+
+nav a{
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    
+
+}
+nav a:hover{
+    color: cadetblue;
+}
+
+main{
+    display: flex;
+    margin: 20px;
+    
+}
+
+main article{
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 2px black;
+    margin: 20px;
+}
+
+table{
+    border-collapse: collapse;
+    border: 2px solid black;   
+}
+
+tr{
+    border: 1px solid black;
+   
+}
+
+tr :hover{
+    background-color: gray;
+}
+
+td{
+    border: 1px solid black;
+
+}
+
+table caption{
+    color: darkslategray;
+}
+
+
+footer{
+    align-self: self-end;
+}
+
+main form{
+    margin-left: 200px;
+    gap: 20px;
+    border: 2px solid black;
+    padding: 50px;
+    
+}
+
+form label:focus{
+    background-color: black;
+}
+
+button{
+    background-color: black;
+    color: white;
+}
+
+button:hover{
+    background-color: gray;
+    
+}
+
+
+
