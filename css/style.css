@@ -1,7 +1,6 @@
 body{
     background-color: antiquewhite;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-shadow: ;
 }
 
 nav a{
@@ -77,6 +76,10 @@ button{
 button:hover{
     background-color: gray;
     
+}
+
+img{
+    max-width: 100%;
 }
 
 
