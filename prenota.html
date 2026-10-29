@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<header>
+    <h1>Cinema Singh</h1>
+    <p>Cinema Singh è il nuovo cinema aperto nel centro di Pognano che offre 
+        film di ogni tipo ed accetta richieste.
+    </p>
+</header>
+
+<body>
+    <nav>
+        <a href="index.html" >Pagina Principale</a>
+        <a href="programmazione.html">Programmazione</a>
+        <a href="prenota.html" aria-current="page">Prenota</a>
+        <a href="contatti.html">Contatti</a>
+    </nav>
+    <main>
+        <form>
+            <label for="nome">Nome e Cognome</label>
+            <input type="text" id="nome" name="nome">
+
+            <label for="email">email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefono">telefono</label>
+            <input type="tel" id="telefono" name="telefono" required>
+
+            <label for="data">Data di prenotazione</label>
+            <input type="date" id="data" name="data" required>
+
+            <label for="numero">Numero Partecipanti</label>
+            <input type="number" id="numero" name="numero" min="1" max="10">
+
+            <select>
+                <option>Fast & Furius</option>
+                <option>How to train your dragon</option>
+                <option>Shawn the sheep</option>
+            </select>
+
+            <button type="submit">Prenota</button>
+
+
+        </form>
+    </main>
+    
+</body>
+</html>
